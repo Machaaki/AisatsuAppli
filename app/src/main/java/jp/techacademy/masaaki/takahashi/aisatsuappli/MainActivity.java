@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         if (v.getId() == R.id.button1) {showTimePickerDialog();
         }
+
     }
 
     private void showTimePickerDialog() {
@@ -40,8 +41,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-
-                        
 
                         Log.d("UI-PARTS", String.valueOf(hourOfDay) + ":" + String.valueOf(minute));
 
