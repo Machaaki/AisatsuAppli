@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
 
+                        
 
                         Log.d("UI-PARTS", String.valueOf(hourOfDay) + ":" + String.valueOf(minute));
 
