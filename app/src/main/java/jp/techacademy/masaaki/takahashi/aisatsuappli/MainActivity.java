@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             mTextView.setText("こんばんは");
                         }
 
-
                                             }
                 },
                 13, // 初期値（時間）
